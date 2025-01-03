@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Elixir: attempting to modify a list in place while iterating over it with Enum.each.  Elixir lists are immutable, meaning any operation that seems to modify a list actually creates a new list. This example shows the incorrect approach and the correct solution using Enum.filter.
